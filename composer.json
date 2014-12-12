@@ -1,0 +1,13 @@
+{
+    "name": "pitech/framework",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "symfony/routing" : "@dev",
+        "symfony/http-kernel" : "@dev"
+    },
+    "autoload": {
+        "psr-4": { "Pitech\\FrameworkBundle\\": "" }
+    }
+}
